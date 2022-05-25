@@ -1,4 +1,6 @@
-# This project is easy and fast way to convert your `docx` files to `html`
+# DOCXtoHTML
+
+This project is easy and fast way to convert your `docx` files to `html`
 
 ---
 
@@ -6,7 +8,7 @@
 
 ## Usage
 
-### Word setup
+### MS Word setup !!!ONLY ONCE!!!
 
 1. Firstly you should to open `word` - `file` - `setting` - `additional`.
 2. Find the `web-document-settings` or something like this.
@@ -21,7 +23,7 @@ Add all files what you want to convert in `docs/` folder
 
 ### Run script
 
-Run index.js script
+Run `index.js` script
 
 There are many ways to run script. You can use cmd, terminal inside IDE or other
 To run script print in terminal `node <<relative-path-to-script>>`
@@ -41,7 +43,7 @@ node index.js
 ## NOTE
 
 1. DONT DELETE file `html/styles.css`!!!
-2. if you deleted this file, and you hate result - create new styles.css in `html/` folder and paste this code:
+2. if you still deleted this file, and you hate the result - create new styles.css in `html/` folder and paste this code inside:
 
 ```CSS
 * {
