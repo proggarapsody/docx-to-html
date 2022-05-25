@@ -1,14 +1,18 @@
-# DOCXtoHTML
+# DOCX⇝HTML
 
 This project is easy and fast way to convert your `docx` files to `html`
 
 ---
 
-## !!! Only for Windows because this method use Powershell script !!!
+## ❗ Only for Windows because this method use Powershell script ❗
 
-## Usage
+# Usage
 
-### MS Word setup !!!ONLY ONCE!!!
+## 🔥 SETUP !!!ONLY ONCE!!!
+
+### Ⅰ Clone this repository in any folder on your PC
+
+### Ⅱ MS Word setup
 
 1. Firstly you should to open `word` - `file` - `setting` - `additional`.
 2. Find the `web-document-settings` or something like this.
@@ -17,11 +21,11 @@ This project is easy and fast way to convert your `docx` files to `html`
 5. Exit menu.
 6. Exit word document and `approve saving`.
 
-### Add files
+## 🔥 Add files
 
 Add all files what you want to convert in `docs/` folder
 
-### Run script
+## 🔥 Run script
 
 Run `index.js` script
 
@@ -40,7 +44,7 @@ Or if you are in the same folder with index.js - `src/` folser
 node index.js
 ```
 
-## NOTE
+## ❗ NOTE ❗
 
 1. DONT DELETE file `html/styles.css`!!!
 2. if you still deleted this file, and you hate the result - create new styles.css in `html/` folder and paste this code inside:
