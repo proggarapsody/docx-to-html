@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  margin-bottom: 20px;
+  transition: 0.4s ease-out;
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  transform: scale(1.06);
+  transition: 0.2s ease-out;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  transition: all 0.2s linear;
+}
+h2:hover {
+  display: inline;
+  text-decoration: underline;
+  transition: all 0.2s linear;
+}
+
+.WordSection1 {
+  width: 60vw;
+  margin: 50px auto;
+  min-width: 315px;
+}
