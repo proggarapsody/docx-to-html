@@ -6,8 +6,6 @@ This project is easy and fast way to convert your `docx` files to `html`
 
 ## ❗ Only for Windows because this method use Powershell script ❗
 
-# Usage
-
 ## 🔥 SETUP !!!ONLY ONCE!!!
 
 ### Ⅰ Clone this repository in any folder on your PC
@@ -20,6 +18,15 @@ This project is easy and fast way to convert your `docx` files to `html`
 4. In the bottom input box select unicode. Check mark - always use default encoding should turn off.
 5. Exit menu.
 6. Exit word document and `approve saving`.
+
+### NodeJS installation
+
+I choose `NodeJS` because i 💚 it. NO MORE REASON...
+
+1. If you not have installed `NODE` on your PC go on [official site](https://nodejs.org/en/)
+2. If you install Node - all ready!
+
+# Usage
 
 ## 🔥 Add files
 
